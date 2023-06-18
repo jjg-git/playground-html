@@ -19,7 +19,7 @@ Here are the examples I have made in the list below
     DOM Manipulation
     <ul>
       <li>Twitter Post Clone</li>
-      <li>Simple Reservation Slot<li>
+      <li>Simple Reservation Slot</li>
     </ul>
   </li>
 </ul>
