@@ -20,18 +20,16 @@ html {
     background-color: var(--primary-color);
 }
 
-
-
 body {
     border-radius: 10px;
     border: solid 15px var(--primary-color);
     background-color: var(--primary-color);
     
     min-height: 92vh;
-    margin: 1vh inherit;
+    margin: 1vh;
 }
 
-section, nav {
+section, nav, header, article{
     border-radius: var(--radius);
     border: solid 15px var(--panel-color);
     margin: 0.75em;
@@ -54,14 +52,33 @@ section, nav {
     border-radius: 15px;
 }
 
+article {
+    /*margin-top: 2em;*/
+    /*margin-top: 0em;*/
+    /*margin-bottom: 2em;*/
+    background-color: #319389;
+/*     margin: 0px; */
+    padding: 0;
+}
+
+.post-meta {
+    opacity: 0.5;
+    font-size: 80%;
+}
+
+header {
+    /*margin: 0.75em;*/
+    /*padding: 0.5em;*/
+}
+
 h1 {
-    margin: 1em 0em;
+    margin: 0em 0em;
     padding: 0px;
     border: 0px;
 }
 
-p {
-    margin: 1em 0em;
+section > p {
+    margin: 0em;
     padding: 0px;
     border: 0px;
 }

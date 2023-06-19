@@ -7,23 +7,23 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     <head>
         <title>HOME</title>
         <link href="global-style.css" rel="stylesheet" type="text/css">
+        <script src="menu-generate.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     
-    <body>
-        <nav>
-            <ul class="nav-list">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="examples.html">Examples</a></li>
-            </ul>
-        </nav>
-    
-
-        <section>
-            <h1>Welcome!</h1>
-            <p>You are looking at a website where I compiled all of my web examples.</p>
-        </section>
+    <body onload="createNav()">
+        <article>
+            <header>
+                <h1>Welcome!</h1>
+                <hr>
+                <p class="post-meta">John Joseph F. Giron</p>
+            </header>
+            <section>
+                <p>You are looking at a website where I compiled all of my web examples.</p>
+            </section>
+        </article>
+        
     </body>
     
 </html>
