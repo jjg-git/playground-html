@@ -1,0 +1,35 @@
+ORDER OF GROUPS OF RULES:
+    1.  Layout
+        a. BOX model (exclude borders)
+        b. Size (width, height)
+        c. Display (relative, absolute, fixed, sticky, flex, grid)
+        c. Positioning
+    2.  Styling
+        a. Text/Fonts
+        b. Background
+        c. Borders
+        d. Lists
+
+ORDER OF BACKGROUND RULES:
+    1. Image
+    2. Color
+    3. Repeat
+    4. Attachment
+* also applies in shorthand
+
+ORDER OF TEXT RULES:
+    1. Alignment
+    2. Decoration
+    3. Color
+    4. Spacing
+    5. Transformation
+    6. Shadow
+
+ORDER OF FONT RULES:
+    1. Font Family
+    3. Size
+    2. Style
+    5. Weight
+    6. Variant (uppercase, lowercase)
+
+Separate the groups with newlines
