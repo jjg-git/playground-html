@@ -1,0 +1,65 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jun 19, 2023, 7:27:41} PM
+    Author     : John Joseph F. Giron
+*/
+
+.example-grid {
+    display: flex;
+    grid-template-columns: auto auto auto;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.ex-grid-link {
+    display: flex;
+    flex-direction: column;
+    width: 7em;
+    /*flex-grow: 1;*/
+    /*align-content: stretch;*/
+
+    background-color: white;
+    margin: 0px 1em;
+    padding: 20px;
+
+    border: 1px solid white;
+    
+    /*font-size: 8px;*/ 
+    text-decoration: none;
+    color: black;
+}
+
+.ex-grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    flex-grow: 1;
+    align-items: center;
+}
+
+.ex-grid-link:hover {
+    border: 1px solid black;
+}
+
+.example-name {
+    vertical-align: middle;
+    text-align: center;
+    flex-grow: 1; 
+    /*border: 1px solid black;*/
+}
+
+.example-img {
+    background-image: url("mystery.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+    height: 100px;
+    width: 100px;
+}
+
+/* images */
