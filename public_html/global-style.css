@@ -66,3 +66,14 @@ article {
     opacity: 0.5;
     font-size: 80%;
 }
+
+table {
+    border: 15px solid var(--primary-color);
+    border-radius: var(--radius);
+    border-spacing: 0px;
+}
+
+table tr > * {
+    border: 5px solid var(--primary-color);
+    padding: 5px 10px;
+}

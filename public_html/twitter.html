@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Twitter Post Clone</title>
+        <link href="global-style.css" rel="stylesheet" type="text/css">
+        <script src="menu-generate.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body onload="createNav()">
+        <article>
+            <header>
+                <h1>Twitter Post Clone</h1>
+            </header>
+            <section>
+                <div id="twitter-container">
+                    <div style="
+                         border: 2px solid black;" 
+                         class="twitter-subcont" id="make-tweet">
+                        <div style="
+                             display: inline-block;
+                             width: 100px;
+                             height: 50px;
+                             border: 1px solid black;" id="pfp-section"></div>
+                        <div style="
+                             display: inline-block;
+                             border: 1px solid black;" id="interface-input">
+                            <select>
+                                <option>Everyone</option>
+                                <option>Twitter Circle</option>
+                            </select><br>
+                            
+                            <textarea></textarea><br>
+                            
+                            <select>
+                                <option>Everyone</option>
+                                <option>People you follow</option>
+                                <option>Only people you mention</option>
+                            </select><br>
+                            
+                            <hr>
+                            
+                            <button style="width: 30px; height: 30px;"></button>
+                            <button style="width: 30px; height: 30px;"></button>
+                            <button style="width: 30px; height: 30px;"></button>
+                            <button style="width: 30px; height: 30px;"></button>
+                            <button style="height: 30px;">Tweet</button>
+                        </div>
+                    </div>
+                    <div style="
+                         height:100px;
+                         border:2px solid black;" class="twitter-subcont" id="timeline">
+                        <div id="interacted">Banana Retweeted</div>
+                        <div>
+                            <div style="
+                                 display: inline-block;
+                                 width: 100px;
+                                 height: 50px;
+                                 border: 1px solid black;" 
+                                 
+                                 class="pfp-section"></div>
+                            <div class="content-tweet"></div>
+                            <div class="post-icons">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </body>
+</html>

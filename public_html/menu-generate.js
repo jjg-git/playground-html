@@ -7,6 +7,22 @@
 </nav>
 */
 
+function addList(ul, text, link) {
+    const liCurrent = document.createElement("li");
+        
+    liCurrent.classList.add("nav-item");
+
+    const a = document.createElement("a");
+    const aText = document.createTextNode(text);
+
+    a.classList.add("nav-link");
+    a.href = link;
+
+    ul.appendChild(liCurrent);
+    liCurrent.appendChild(a);
+    a.appendChild(aText);
+}
+
 function giveList(nav) {
     const ul = document.createElement("ul");
     const links = [
@@ -17,19 +33,7 @@ function giveList(nav) {
     ul.classList.add("nav-list");
     
     links.forEach(function(value, index, array) {
-        const liCurrent = document.createElement("li");
-        
-        liCurrent.classList.add("nav-item");
-        
-        const a = document.createElement("a");
-        const aText = document.createTextNode(value[1]);
-        
-        a.classList.add("nav-link");
-        a.href = value[0];
-        
-        ul.appendChild(liCurrent);
-        liCurrent.appendChild(a);
-        a.appendChild(aText);
+        addList(ul, value[1], value[0]);
     });
     
     nav.appendChild(ul);
